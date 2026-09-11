@@ -16,7 +16,6 @@ eat = "yes" if food == "biryani" else "no"
 print(eat)
 print("Hydrabadi") if food == "biryani" or food == "zafar bhai biryani" else print("pulao")
 
-
 age = int(input("Enter age : "))
 vote = ("no","yes") [age >= 18]
 print(vote)
