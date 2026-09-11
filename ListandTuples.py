@@ -45,3 +45,11 @@ mov_list.append(mov3)
 print("Your favorite movie list is : " , mov_list)
 
 # wap to check if a list contains a palindrome of elements
+list1=[1,2,3,2,1]
+Reverse = list1.copy()
+Reverse.reverse()
+if(list1 == Reverse):
+    print("palindrome")
+else:
+    print("not palindrome")
+
