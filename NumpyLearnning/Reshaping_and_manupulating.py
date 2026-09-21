@@ -43,6 +43,24 @@ merged_array = np.concatenate((arr1,arr2,arr3))
 print(merged_array)
 print()
 
+#deleting row from multidimensional array
+print("delete a row from 2d array")
+print("before deleting row")
+print(arr_2d)
+print("after deleting the row")
+deleted = np.delete(arr_2d,0,axis=0) # u can delete a column by changing the axis value from 0 to 1
+print(deleted)
+
+
+print("stacking array vertically and horizontally")
+print(np.vstack((arr1,arr2))) # vertically stacked
+print(np.hstack((arr1,arr3))) # horizontally stacked
+
+# splitting arrays
+large_array = np.array([1,2,3,4,5,6,7,8,9,10])
+print(np.split(large_array,5)) # splitting elements in to equal parts
+print(np.hsplit(large_array,2)) # splitting elements horizontally
+
 
 
 
