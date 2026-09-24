@@ -14,3 +14,4 @@ array = np.array([10,20,30])
 
 print(matrix + array)  # broadcasting , added array elements throughout each of the matrix element
 print(matrix * array)
+print(matrix - array)
