@@ -15,3 +15,10 @@ array = np.array([10,20,30])
 print(matrix + array)  # broadcasting , added array elements throughout each of the matrix element
 print(matrix * array)
 print(matrix - array)
+
+
+#--------------------------------------------------- VECTORIZATION -----------------------------------------------------
+l1 = [1,2,3,4]
+l2 = [5,6,7,8]
+result = [x+y for x,y in zip(l1,l2)] # this is slower
+print(result)
